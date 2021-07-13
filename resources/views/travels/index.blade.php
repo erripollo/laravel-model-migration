@@ -15,7 +15,11 @@
             <div class="card" style="width: calc(100% / 3 - 2rem);">
                 <div class="img_card">
                     <img src="{{$travel->cover_image}}" class="card-img-top" alt="...">
+                    <div class="price py-2 px-3 rounded-pill">
+                        da <span>{{$travel->cost}} €</span> p.p.
+                    </div>
                 </div>
+                
                 <div class="card-body">
                   <h5 class="card-title">{{$travel->title}}</h5>
                   <p class="card-text">{{$travel->description}}</p>
