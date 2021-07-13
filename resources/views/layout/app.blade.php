@@ -22,7 +22,7 @@
             <div class="container">
 
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#">Travel Agency</a>
+                    <a class="navbar-brand" href="{{route('home')}}">Travel Agency</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
@@ -47,9 +47,11 @@
             </div>
         </main>
 
-        <footer>
-            <div class="container">
-                Site Footer
+        <footer class=" bg-primary">
+            <div class="container d-flex justify-content-center align-items-center text-light py-3" style="font-size: 2rem;">
+                <i class="fab fa-facebook-square mr-5"></i>
+                <i class="fab fa-instagram mr-5"></i>
+                <i class="fab fa-youtube"></i>
             </div>
         </footer>
     </body>
