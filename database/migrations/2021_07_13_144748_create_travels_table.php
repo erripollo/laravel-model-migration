@@ -16,11 +16,13 @@ class CreateTravelsTable extends Migration
         Schema::create('travels', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->text('description');
-            $table->mediumInteger('cost');
-            $table->string('departure_from');
-            $table->date('departure_date');
-            $table->date('return_date');
+            $table->string('destination', 100);
+            $table->text('description')->nullable();
+            $table->string('cover_image')->nullable();
+            $table->mediumInteger('cost')->nullable();
+            $table->string('departure_from')->nullable();
+            $table->date('departure_date')->nullable();
+            $table->date('return_date')->nullable();
             $table->timestamps();
         });
     }
