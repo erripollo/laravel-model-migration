@@ -8,16 +8,16 @@ class PageController extends Controller
 {
     public function home()
     {
-        return 'Home Page';
+        return view('home');
     }
 
     public function about()
     {
-        return 'About Page';
+        return view('about');
     }
 
     public function contacts()
     {
-        return 'Contacts Page';
+        return view('contacts');
     }
 }
