@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>@yield('title', Travel Agency)</title>
+        <title>@yield('title', 'Travel Agency')</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
             <a href="{{route('home')}}">Home</a>
             <a href="{{route('travels')}}">Travels</a>
             <a href="{{route('about')}}">About</a>
-            <a href="{{route('contacts')}}"></a>
+            <a href="{{route('contacts')}}">Contacts</a>
         </header>
 
         <main>
