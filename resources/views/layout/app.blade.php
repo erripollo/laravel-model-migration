@@ -9,6 +9,9 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
 
+        <!-- Fontawesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
         <!-- css -->
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
 
@@ -34,6 +37,9 @@
                 </nav>
             </div>
         </header>
+        <div class="jumbotron m-0">
+            <img src="https://image.urlaubspiraten.de/1600/image/upload/v1603286919/mediavault_images/s5aunpmnf1bvinp3ko3l.jpg" alt="">
+        </div>
 
         <main>
             <div class="container">

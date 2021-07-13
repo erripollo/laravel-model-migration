@@ -1,0 +1,11 @@
+//Jumbotron
+.jumbotron {
+    height: 400px;
+    padding: 0;
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
